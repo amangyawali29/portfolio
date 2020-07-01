@@ -1,0 +1,186 @@
+
+@media only screen and (max-width: 1200px){
+    #name{
+    margin-left: 129px;
+    
+}
+}
+
+@media only screen and (max-width: 1023px) {
+   #name{
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 40px;
+} 
+    #role{
+    font-family: Basic;
+    font-size: 35px;
+    margin-left: 30px;
+}
+    #job{
+    font-size: 18px;
+    margin-left: 30px;
+}
+     #role_about{
+    font-size: 45px;
+    padding-top: 35px;
+    margin-top:-30px;
+}
+    .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+    #role_work{
+        font-size: 45px;
+        margin-bottom: 2px;
+    }
+    
+    #job_about{
+    font-size: 21px;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    #name{
+    font-size: 25px;
+    margin-left: 15px;
+    margin-top: 40px;
+}
+    #role{
+    font-family: Basic;
+    font-size: 35px;
+    margin-left: 15px;
+}
+     #job{
+    font-size: 18px;
+    margin-left: 15px;
+}
+    .paragraph{
+    padding-top: 22px;
+    width:50%;
+}
+     .aman {
+    padding-top: 30px;
+    width:50%;
+    float: left;
+}
+    #lm{
+    font-size: 19px;
+}
+    #role_about{
+    font-size: 45px;
+    padding-top: 35px;
+    margin-top:-30px;
+        margin-left: 2px;
+}
+    .container{
+        display: flex; 
+        flex-direction: column-reverse;
+}
+    
+    #job_about{  
+    margin-left: 5px;
+    margin-top: -30px;
+    }
+    
+    #role_work{
+        font-size: 40px;
+        margin-bottom: 2px;
+    }
+    
+     #talk{
+    font-size: 45px;
+     margin-top: -20px;
+}
+     #touch{
+    font-size: 25px;
+    padding-left: 30px;
+}
+   .fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 40px;
+padding-bottom: -20px;
+}     
+}
+
+@media only screen and (max-width: 480px) {
+    .topnav {
+    height: 8%;
+    margin-left: -1px;
+}
+    #option, #option1{
+        font-size:23px;
+    }
+    
+    #option1{
+        margin-left: 1px;
+    }
+    .aman {
+    width:90%;
+    float: right;
+}
+       
+    #name{
+    font-size: 30px;
+    margin-left: 5px;
+    margin-top: 70px;
+}
+
+#role{
+    font-size: 35px;
+    margin-left: 5px;
+}
+    .paragraph{
+    padding-top: 22px;
+    width:100%;
+    float: left;  
+}
+    #job{
+    font-size: 25px;
+    margin-left: 5px;
+}
+    #role_about{
+    font-size: 38px;
+    padding-top: 50px;
+    margin-top:-30px;
+        margin-left: 30px;
+}
+    
+    .container{
+        display: flex; 
+        flex-direction: column-reverse;
+}
+    #job_about{
+    font-size: 22px;
+    margin-left: 5px;
+    margin-right: -20px;
+    }
+    
+    .skills{
+        margin-right: -20px;
+    }
+    
+    #role_work{
+        font-size: 38px;
+        margin-bottom: 20px;
+    }
+    
+    #talk{
+    font-size: 38px;
+}
+    
+    #touch{
+    font-size: 20px;
+    padding-left: 30px;
+}
+    .fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 40px;
+}
+    footer{
+    font-size: 15px;
+}
+}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="queries.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    </head>
+<body>
+    
+    <div class="topnav">
+        <a id="option1" href="#home">Home</a>
+        <a id="option" href="#about">About</a>
+        <a id="option" href="#work">Work</a>
+        <a id="option" href="#contact">Contact</a>
+    </div>
+    <section id="home">
+        <div>
+            <div class="paragraph">
+                <p id="name">Hi I'm Aman.</p>
+                <p id="role">Software Developer &amp;<br> Web Designer</p>
+                <p id="job">final year undergrad at Mississippi State University.<br>Junior Software Developer at <a href="https://www.beyondtrust.com/" target="_blank" id="bt">BeyondTrust.</a><br>...and your well wisher &#128522;&#9996;<br><br><a href="#about" id="lm">Know more about me &#x2193;</a></p>
+            </div>
+            <div class="aman">
+                <img src="img/aman.jpg" alt="my_photo">
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    
+    <section id="about">
+        <p id="role_about">I  design and develop</p>
+        <div class="container">    
+        <div class="skills">
+            <p id="skill"> Skills</p>
+             <p id="tools"> Tools &amp; Technologies</p>
+            <div class="list">
+                <div id="first_list"><p>C, C++, OOP<br><br>Python<br><br>SQL, MySQL, SQlAlchemy<br><br>Javascript</p> </div>
+                <div><p>HTML/CSS<br><br>PHP<br><br>Microsoft Office Package<br><br>Svelte, Bootstrap</p></div>
+            </div>
+              <p id="tools"> Interpersonal skill</p>
+            <div class="list">
+                <p id="first_list">Leadership, Teamwork<br><br>Communicative</p>
+                <p>Active Listener<br><br>Motivative, Patience</p>
+            </div>
+            
+            
+        </div>
+        <div id="test">
+            <p id="job_about">I'm Aman Gyawali and I am from Nepal. I live in Mississippi, United States.<br> I am an undergraduate student at Mississippi State University and my major is Computer Science. I am in my final year and expected to graduate in December 2020.<br>During my time in college, I have learned various tools and techniques which have helped me grow my career skills and I try to implement those skills in some of my personal projects. This has helped me do better and learn more. Along with that, I have developed good interpersonal skills in me because of which I really feel confident when I interact and communicate with others.<br><br>If you want to learn more about me always feel free to go over my <a href="Resume.pdf" target="_blank" id="bt">Resume</a>.<br> <a href="#work" id="lm">Know my works and projects &#x2193;</a>
+            </p>
+        </div>
+        </div>
+         
+    </section>
+    
+    <section id="work">
+         <p id="role_work">What I have done and achieved so far.</p>
+        
+         <script>
+            function myWork() {
+                var content = document.getElementById("works"); 
+                let mybut = document.getElementById("button1");
+                if (content.style.display === "none") {
+                    content.style.display = "block";
+                    mybut.style.color="#ffa600";
+                    document.getElementById("sym1").innerHTML = "&#11165";
+                } else {
+                    content.style.display = "none";
+                     mybut.style.color = "#fff";
+                     document.getElementById("sym1").innerHTML = "&#11167";
+                }
+            }
+        </script>
+
+        <button id="button1" onclick="myWork()"><span id="let1">Work experience</span><span id="sym1">&#11165;</span></button><br>
+        <div id="works"> 
+            <h2>&#10031; <i id="title">Jr. Software Developer</i>, Intern – BeyondTrust, Jackson, Mississippi, May 2020 – August 2020 </h2>
+                <ul id="lists">
+                    <li>Worked on a project named Watcher, to design a website which monitors the health of the company’s appliances</li>
+                    <li>Worked on the frontend using JavaScript and svelte and, on the backend, using python, SQLAlchemy and Flask.</li>
+                    <li>Successfully improved the performance of the website through indexing and other techniques.</li>
+                    <li>Added some additional features on the website like email alert system and maintenance mode.</li>  
+                </ul>
+            <h2>&#10031; <i id="title">Information Assistant</i> - Resident and Housing Life, Mississippi State University, August 2019- Present</h2>
+                <ul id="lists">
+                    <li>Provide quality assistant and services to resident and guests.</li>
+                    <li>Signing in packages</li>
+                    <li>Guests check-in and complete tasks assigned by senior RA.</li>
+                </ul>
+        
+        
+        </div>
+        
+         <script>
+            function myProject() {
+                var contentx = document.getElementById("projects");
+               let mybut = document.getElementById("button2");
+                if (contentx.style.display === "none") {
+                    contentx.style.display = "block";
+                    mybut.style.color="#ffa600";
+                    document.getElementById("sym2").innerHTML = "&#11165";
+                } 
+                else {
+                    contentx.style.display = "none";
+                    mybut.style.color = "#fff";
+                    document.getElementById("sym2").innerHTML = "&#11167";
+                }    
+            }        
+             
+        </script>
+        <button id="button2" onclick="myProject()"><span id="let2">Projects</span><span id="sym2">&#11165;</span></button><br>
+        <div id="projects">
+            <ul id="lists">
+                <li>Designed a program which implement a video poker machine which processes the basic rules of a five card draw
+hand using C++ and object-oriented programming techniques</li>
+                <li>Built a basic UNIX shell which reads and processes the commands, using C and implemented it on LINUX
+development environment.</li>
+                <li>Designed a website for a virtual restaurant named We Serve using HTML5, CSS, PHP, and JavaScript</li>
+                <li>Designed a webpage for virtual premier food delivery company named Omnifood using HTML5 and CSS.</li>
+            </ul>
+        
+        </div>
+        
+          <script>
+            function myAchieve() {
+                var content = document.getElementById("achieve");
+                let mybut = document.getElementById("button3");
+                if (content.style.display === "none") {
+                    content.style.display = "block";
+                    mybut.style.color="#ffa600";
+                    document.getElementById("sym3").innerHTML = "&#11165";
+                } else {
+                    content.style.display = "none";
+                    mybut.style.color = "#fff";
+                    document.getElementById("sym3").innerHTML = "&#11167";
+                }
+            }
+        </script>
+        
+        <button id="button3" onclick="myAchieve()"><span id="let3">Honors &amp; Activities</span><span id="sym3">&#11165;</span></button><br>
+        <div id="achieve">
+            <ul id="lists">
+                <li>Non-resident and Phi Theta Kappa Scholarship awarded by Mississippi State University for academic excellence (2019)</li>
+                <li>Presidential Scholarship awarded by Mississippi University for Women for academic excellence (2016).</li>
+                <li>Mahatma Gandhi Scholarship awarded by the Embassy of India (2013-2014)</li>
+                <li>Participant in -Leadership Training Program (2014)</li>
+                <li>Member, Phi Theta Kappa Honor Society (2017)</li>
+                <li>Member, Butwal Jaycees, Butwal, Nepal (2014)</li>
+                <li>20 hours community service picking garbage from the surrounding of Northlake College. (2017)</li>
+                <li>Volunteered to put the United States flag in the houses of Irving community on Veterans Day. (2017)</li>
+            </ul>
+        </div>
+    </section>
+    
+    
+    <section  id="contact">
+            <p id="talk">Let's Talk.</p><br>
+                <p id="touch">We can get in touch via various medium.</p>
+                <p id="touch"> Call me at <i id="pe">+1(662)-497-6254</i></p>
+                <p id="touch">Email me at <i><a href="mailto:amangyawali29@gmail.com?subject=Hello!" id="pe">amangyawali29@gmail.com</a></i> or <i><a href="mailto:ag2751@msstate.edu?subject=Hello!" id="pe">ag2751@msstate.edu</a></i></p>
+                <p id="touch_media">Follow me on various social media platforms:</p>
+                <p id="media">
+                    <a href="https://www.facebook.com/aman.gyawali2" target="_blank" class="fa fa-facebook"></a>
+                    <a href="https://www.linkedin.com/in/aman-gyawali-20954a194/" target="_blank" class="fa fa-linkedin"></a>
+                    <a href="https://twitter.com/IamAmanG" target="_blank" class="fa fa-twitter"></a>
+                    <a href="https://www.instagram.com/iamaman29/" target="_blank" class="fa fa-instagram"></a>
+                </p>
+    </section>
+    <hr>
+    
+    <footer>
+        <p>Copyright &#169; 2020 by Aman Gyawali. All rights reserved.</p>
+    </footer>
+      
+</body>
+</html>
